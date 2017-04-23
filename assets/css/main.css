@@ -17,13 +17,33 @@ body {
 p {
   /*font-family: 'Audiowide', cursive;*/
   font-family: 'Slackey', cursive;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 footer {
   /*font-family: 'Audiowide', cursive;*/
   font-family: 'Slackey', cursive;
   font-size: 25%;
+}
+
+/* unvisited link */
+a:link {
+    color: #404040;
+}
+
+/* visited link */
+a:visited {
+    color: #404040;
+}
+
+/* mouse over link */
+a:hover {
+    color: #404040;
+}
+
+/* selected link */
+a:active {
+    color: #404040;
 }
 
 
