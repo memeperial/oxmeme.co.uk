@@ -1,0 +1,99 @@
+/*
+ * CSS inspired by Small theme from Carlos Alvarez
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800);
+@import url('https://fonts.googleapis.com/css?family=Slackey');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url("../img/background.png");
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 300;
+}
+
+p {
+  /*font-family: 'Audiowide', cursive;*/
+  font-family: 'Slackey', cursive;
+  font-size: 200%;
+}
+
+footer {
+  /*font-family: 'Audiowide', cursive;*/
+  font-family: 'Slackey', cursive;
+  font-size: 25%;
+}
+
+
+.centered {
+	text-align: center;
+}
+
+#profile {
+  width: 100%;
+  position: fixed;
+  /*top: 15%;*/
+  top: 50px;
+  font-size: 40px;
+  color: #404040;
+  /*color: white;*/
+}
+
+.profile-image {
+  width: 200;
+  height: 200;
+}
+
+.profile-description {
+  margin-top: 25px;
+}
+
+#links {
+  margin-top: 55px;
+}
+
+#profile i {
+	font-size: 60px;
+  color: #404040;
+	padding: 14px;
+}
+
+#profile .facebook:hover {
+	color: #3b5998;
+}
+
+#profile .twitter:hover {
+	color: #2094CA;
+}
+
+#profile .instagram:hover {
+  /*color: #9b6954;*/
+  color: #c13584;
+  /*color: #833ab4;*/
+}
+
+#profile .github:hover {
+  color: #4078c0
+}
+
+#profile .soundcloud:hover {
+  color: #ff3a00;
+}
+
+#profile .spotify:hover {
+  color: #1ED760
+}
+
+#profile .linkedin:hover {
+  color: #0077b5
+}
+
+#profile .youtube:hover {
+  color: #e52d27
+}
+
+#profile .sharealtsquare:hover {
+  color: #e52d27
+}
